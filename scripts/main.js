@@ -2,10 +2,10 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
   let mySrc = myImage.getAttribute('src');
-  if(mySrc === '/Users/nidhibendre/Documents/ds4200/hw1/images/firefox.jpeg') {
-    myImage.setAttribute ('src','/Users/nidhibendre/Documents/ds4200/hw1/images/firefox2.jpeg');
+  if(mySrc === 'images/firefox.jpeg') {
+    myImage.setAttribute ('src','images/firefox2.jpeg');
   } else {
-    myImage.setAttribute ('src','/Users/nidhibendre/Documents/ds4200/hw1/images/firefox.jpeg');
+    myImage.setAttribute ('src','images/firefox.jpeg');
   }
 }
 
